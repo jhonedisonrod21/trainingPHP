@@ -1,0 +1,23 @@
+este drectorio tiene como finalidad crear las plantillas maestras o layouts de laravel  incluyendo los includes
+
+
+//
+Variable == "   @yield('varname')  "  ///esto crea una variable sustituible desde la clase que herede la plantilla
+
+@section('header')
+    cabecera
+@show
+
+@section('footer')  // esto es en la plantilla en si pero si se quiere agregar algo mas adicional al footer por ejemplo se tiene que usar @parent() para que agregue componentes hasta ahi y luego continue
+    pie de pagina
+@show
+
+
+mejorando la section desde una view 
+
+
+
+
+section permite tener contenido por defecto  
+yield es una vaiable/includeex
+
